@@ -1,11 +1,11 @@
-.card-filmes {
+.card-filmes-livros {
     padding: 100px;
     justify-content: space-around;
     flex-direction: row;
     display: flex;
     }
   
-  .card-filmes .card:hover {
+  .card-filmes-livros .card:hover {
     background-color: #f1f4fb;
     color: rgba(17, 0, 0, 0.658);
     margin-top: -20px;
@@ -13,6 +13,6 @@
     border-color: #e68b14; 
     }
       
-  .card-filmes .card:hover img{
+  .card-filmes-livros .card:hover img{
     filter: invert(i);
   }
