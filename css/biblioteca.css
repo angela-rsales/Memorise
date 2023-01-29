@@ -1,0 +1,18 @@
+.card-filmes {
+    padding: 100px;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    }
+  
+  .card-filmes .card:hover {
+    background-color: #f1f4fb;
+    color: rgba(17, 0, 0, 0.658);
+    margin-top: -20px;
+    box-shadow: 2px 15px 15px #e68b14; 
+    border-color: #e68b14; 
+    }
+      
+  .card-filmes .card:hover img{
+    filter: invert(i);
+  }

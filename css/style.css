@@ -1,0 +1,42 @@
+/*FOOTER*/
+
+.footer {
+  background: black;
+  text-align: center;
+  height: 200px;
+  padding: 3rem;
+  margin-top: 100px;
+}
+
+.footer .share a {
+
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: rgb(250, 141, 39);
+  border: var(--border);
+  margin: 0.7rem;
+  border-radius: 50%;
+}
+
+.footer .share a:hover {
+  background-color: var(--main-color);
+}
+
+.footer .share a:hover {
+  cursor: pointer;
+  color: orange;
+  padding: 5px;
+}
+
+.footer .credit {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: lighter;
+  padding: 1.5rem;
+}
+
+.footer .credit span {
+  color: var(--main-color);
+}

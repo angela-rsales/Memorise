@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Memorize</title>
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="index.html" class="logo">
+      <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/logo.png?raw=true" alt="logo" width="150" height="150">
+    </a>
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./html/MinhaLista.html">Minha Lista</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./html/Login.html">Cadastro/Login</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Catálogo
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./html/Filmes.html">Filmes</a>
+            <a class="dropdown-item" href="./html/Livros.html">Livros</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./html/Sugestao.html">Sugestão do mês</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-warning my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+  <body>
+
+    <!-- CARROSSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/banner-1.jpg.jpg?raw=true" class="d-block w-100" alt="Casa 1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>ESCOLHA FILMES E LIVROS</h5>
+            <p>Salve aqueles que deseja ver</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/banner-2.jpg.jpg?raw=true" class="d-block w-100" alt="Casa 2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>SEUS LIVROS FAVORITOS</h5>
+            <p>Uma lista organizada do seu jeito</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/banner-3.jpg.jpg?raw=true" class="d-block w-100" alt="Casa 3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Os filmes que você vai ver</h5>
+            <p>Um ranking dos seus preferidos</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <br><br>
+
+    <!-- APRESENTAÇÃO DO SITE -->
+    <div class="container" id="featured-container">
+      <div class="col-12">
+        <h2 class="title primary-color">O MEMORIZE GUARDA PARA VOCÊ!</h2>
+        <br><br>
+        <h4>Para que anotar em bloquinhos perdidos por aí,que você nunca vê? Aqui você pode usar gratuitamente nosso espaço de listas super interativo, dinâmico e moderno pra caramba! <br/></h4>
+        <p class="subtitle secondary-color">
+        <br/>
+            Conheça algumas de nossas categorias:
+        </p>
+      </div>
+      <div class="col-12" id="featured-images">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/fime1.jpg?raw=true" alt="Projeto 1" class="img-fluid"/>
+            <div class="banner-content">
+              <p class="secondary-color">Filme</p>
+              <h3>Terror</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/filme2.jpg?raw=true" alt="Projeto 2" class="img-fluid"/>
+            <div class="banner-content">
+              <p class="secondary-color">Filme</p>
+              <h3>Ação</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/filme3.jpg?raw=true" alt="Projeto 3" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Filme</p>
+              <h3>Romance</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/livro1.jpg?raw=true" alt="Projeto 4" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Livro</p>
+              <h3>Investigação Criminal</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/livro2.jpg?raw=true" alt="Projeto 5" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Livro</p>
+              <h3>Romance</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/livro3.jpg?raw=true" alt="Projeto 6" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Livro</p>
+              <h3>Auto-ajuda</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- COMUNIDADE -->
+    <div class="container" id="info-container">
+      <div class="col-12">
+        <br><br>
+        <h2 class="title primary-color">NOSSA COMUNIDADE</h2><br><br>
+        <p class="subtitle secondary-color">
+          Estamos crecendo e fazendo a diferença!
+        </p>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-md-5" id="info-banner">
+            <img src="https://github.com/LeticiaMattosSilva/memorize-books-films/blob/main/img/amigos.jpg?raw=true" alt="Informações" class="img-fluid" />
+          </div>
+          <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="title">É lista que não acaba!</h2>
+                <p class="subtitle secondary-color">
+                  Nossos serviços estão cada vez mais sendo requisitados e compartilhados entre amigos!
+                  Compartilhe suas listas, você vai se surpreender com as listas de seus amigos e colegas.  
+                </p>
+              </div>
+              <div class="col-12" id="info-numbers">
+                <div class="row">
+                  <div class="col-4">
+                    <h3 class="primary-color">07</h3>
+                    <p class="secondary-color">Anos de Memorize</p>
+                  </div>
+                  <div class="col-4">
+                    <h3 class="primary-color">1250</h3>
+                    <p class="secondary-color">Logins</p>
+                  </div>
+                  <div class="col-4">
+                    <h3 class="primary-color">+3000</h3>
+                    <p class="secondary-color">Itens adicionados</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <a class="btn btn-dark" href="/html/Login.html">Fazer Parte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+      <!--FOOTER-->
+      <section class="footer">
+
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a><img src="https://img1.gratispng.com/20180327/ajq/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea6e2a1c9.4691877415221715589283.jpg" width="50" height="50"></a>
+          <a href="#" class="fab fa-twitter"></a><img src="https://img1.gratispng.com/20180327/ajq/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea6e2a1c9.4691877415221715589283.jpg" width="50" height="50"></a>
+          <a href="#" class="fab fa-instagram"></a><img src="https://img1.gratispng.com/20180327/ajq/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea6e2a1c9.4691877415221715589283.jpg" width="50" height="50"></a>
+          <a href="#" class="fab fa-linkedin"></a><img src="https://img1.gratispng.com/20180327/ajq/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea6e2a1c9.4691877415221715589283.jpg" width="50" height="50"></a>
+          <a href="#" class="fab fa-pinterest"></a><img src="https://img1.gratispng.com/20180327/ajq/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea6e2a1c9.4691877415221715589283.jpg" width="50" height="50"></a>
+        </div>
+    
+        <div class="credit">Projeto desenvolvido por: Grupo 4 do curso Programadores Cariocas | Todos os direitos reservados. </div>
+    
+      </section>
+</html>

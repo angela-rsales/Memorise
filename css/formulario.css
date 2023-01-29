@@ -1,0 +1,235 @@
+main {
+display: flex;
+align-items: center;
+justify-items: center;
+}
+
+::-webkit-scrollbar {
+width: 0.4rem;
+
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #000;
+border-radius: 0.3rem;
+
+}
+
+::-webkit-scrollbar-track {
+background-color: #000;
+}
+
+.login-container {
+display: flex;
+flex-direction: row;
+width: 80rem;
+height: 30rem;
+border-radius: 1.5rem;
+justify-content: space-around;
+align-items: center;
+background-color: black;
+box-shadow: 0 0.2rem 1.2rem rgb(250, 141, 39);
+border: 13px solid rgb(250, 141, 39);
+margin-top: 2rem;
+}
+
+#titulo {
+margin-bottom: 4rem;
+font-size: 2.5rem;
+color: rgb(250, 141, 39);
+}
+
+.inputs-login {
+height: 30rem;
+width: 35rem;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+border-radius: 1rem;
+}
+
+.inputs-login input {
+width: 27rem;
+height: 2.5rem;
+border-radius: 0.7rem;
+border: 3px solid rgb(250, 141, 39);
+}
+
+.lembrar-login {
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 1rem;
+}
+
+.lembrar-login input {
+width: 0.9rem;
+}
+
+.inputs-login h1 {
+text-align: center;
+font-size: 2rem;
+color: white;
+margin-top: 3rem;
+}
+
+#checkbox {
+margin-right: 1rem;
+}
+
+main h2 {
+font-size: 0.9rem;
+color: white;
+margin-right: 18rem;
+margin-top: 0.5rem;
+}
+
+main button {
+width: 27rem;
+height: 2.5rem;
+}
+
+.links a {
+text-decoration: none;
+color: white;
+}
+
+.links a:hover {
+cursor: pointer;
+color: orange;
+padding: 5px;
+}
+
+.links li {
+display: inline-block;
+}
+
+.links {
+display: flex;
+justify-content: space-evenly;
+font-size: 1.2rem;
+gap: 7rem;
+}
+
+@media screen and (max-width:599px) {
+
+body {
+display: flex;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+font-family: Montserrat;
+background-color: black;
+}
+
+main {
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: center;
+}
+
+.login-container {
+display: flex;
+flex-direction: column;
+width: 30rem;
+height: 50rem;
+border-radius: 1.5rem;
+justify-content: space-around;
+align-items: center;
+font-family: montserrat;
+background-color: black;
+box-shadow: 0 0.6rem 1.6rem rgb(250, 141, 39);
+border: 13px solid rgb(250, 141, 39);
+}
+
+#titulo {
+margin-bottom: 4rem;
+}
+
+.inputs-login {
+height: 25rem;
+width: 35rem;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+border-radius: 1rem;
+}
+
+.inputs-login input {
+width: 27rem;
+height: 2.5rem;
+border: none;
+border-radius: 0.7rem;
+}
+
+.lembrar-login {
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 1rem;
+}
+
+.lembrar-login input {
+width: 0.9rem;
+}
+
+.inputs-login h1 {
+text-align: center;
+font-size: 2rem;
+color: orange;
+}
+
+#checkbox {
+margin-right: 1rem;
+
+}
+
+h2 {
+font-size: 0.9rem;
+color: white;
+margin-right: 18rem;
+}
+
+button {
+width: 27rem;
+height: 2.5rem;
+}
+
+.links a {
+text-decoration: none;
+color: white;
+}
+
+.links li {
+display: inline-block;
+}
+
+.links {
+display: flex;
+justify-content: space-evenly;
+font-size: 1.2rem;
+gap: 7rem;
+}
+
+.container-tres {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#imagem {
+width: 20rem;
+margin-left: 4rem;
+}
+
+p {
+color: white;
+font-size: 1.5rem;
+font-weight: bold;
+margin-left: 4rem;
+}
+}
