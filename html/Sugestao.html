@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/biblioteca.css">
-    <title>Memorize</title>
+    <title>Memorise</title>
   </head>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a href="index.html" class="logo">
@@ -42,26 +42,22 @@
           </div>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-warning my-2 my-sm-0" type="submit">Pesquisar</button>
-      </form>
     </div>
   </nav>
   <body>
 
 <div class="card-filmes-livros">
-    <div class="card" style="width: 18rem;" id="card1">
+    <div class="card" style="width: 18rem;" id="carrinho">
         <img class="card-img-top" src="https://cineclick-static.flixmedia.cloud/480/processed/56e46bd3-ac16-48d5-b909-59c34b8e9ba9.webp" alt="Imagem de capa do card" width="286" height="358">
         <div class="card-body">
             <h5 class="card-text"><b>Gato de Botas 2 - O útilmo pedido.</b></h5>
             <p>Ação/Aventura, 1h80min de duração.</p>
             <a class="button" href="https://www.youtube.com/watch?v=sLk94T-hS78"><b>View teaser trailler</b></a>
-            <a id="add" href="#" onclick="(minhaLista)"><br><b>Quero assistir</b></a>
+            <a id="add" href="#"><br><b>Quero assistir</b></a>
         </div>
       </div>
     
-    <div class="card" style="width: 18rem;" id="card2">
+    <div class="card" style="width: 18rem;" id="carrinho">
         <img class="card-img-top" src="https://br.web.img3.acsta.net/pictures/22/10/11/19/20/4591973.jpg" alt="Imagem de capa do card" width="286" height="358">
         <div class="card-body">
             <h5 class="card-text"><b>M3gan</b></h5> <br>
@@ -71,7 +67,7 @@
         </div>
       </div>
 
-    <div class="card" style="width: 18rem;" id="card3">
+    <div class="card" style="width: 18rem;" id="carrinho">
         <img class="card-img-top" src="https://s2.glbimg.com/T4CRp2Bwz6QyXh-3IfI-XzHjgvk=/e.glbimg.com/og/ed/f/original/2022/08/23/fa27tr6usaaajx1.jpg" alt="Imagem de capa do card" width="286" height="358">
         <div class="card-body">
             <h5 class="card-text"><b>AVATAR - O caminhos das águas.</b></h5>
@@ -81,38 +77,37 @@
         </div>
     </div>
 </div>
-    <div class="card-filmes-livros">
-    <div class="card" style="width: 18rem;" id="card4">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/51RUFgpEDuL._SX345_BO1,204,203,200_.jpg" alt="Imagem de capa do card" width="286" height="358">
-        <div class="card-body">
-        <h5 class="card-text"><b>Lugares Escuros.</b></h5>
-        <p>Libby Day tinha apenas sete anos quando testemunhou o brutal assassinato da mãe e das duas irmãs na fazenda da família. O acusado do crime foi seu irmão mais velho, que acabou condenado à prisão perpétua.</p>
-        <a class="button" href="https://www.amazon.com.br/Lugares-Escuros-Gillian-Flynn/dp/8580578213/ref=d_pd_sbs_sccl_2_4/132-8147568-9813154?pd_rd_w=Tylfb&content-id=amzn1.sym.f14d3066-f640-490b-be63-642232e30730&pf_rd_p=f14d3066-f640-490b-be63-642232e30730&pf_rd_r=S3A4F1F1DCGPZYEMSAM2&pd_rd_wg=blZFT&pd_rd_r=088f5f4f-258f-4c31-ab89-2642c0ae5390&pd_rd_i=8580578213&psc=1"><b>Quero adquirir</b></a>
-        
+
+<div class="card-filmes-livros">
+  <div class="card" style="width: 18rem;" id="carrinho">
+    <img class="card-img-top" src="https://m.media-amazon.com/images/I/51RUFgpEDuL._SX345_BO1,204,203,200_.jpg" alt="Imagem de capa do card" width="286" height="358">
+      <div class="card-body">
+          <h5 class="card-text"><b>Lugares Escuros.</b></h5>
+          <p>Libby Day tinha apenas sete anos quando testemunhou o brutal assassinato da mãe e das duas irmãs na fazenda da família. O acusado do crime foi seu irmão mais velho, que acabou condenado à prisão perpétua.</p>
+          <a class="button" href="https://www.amazon.com.br/Lugares-Escuros-Gillian-Flynn/dp/8580578213"><b>Quero ler</b></a>
       </div>
+    </div>
+ 
+        <div class="card" style="width: 18rem;" id="carrinho">
+          <img class="card-img-top" src="https://m.media-amazon.com/images/P/B07MCDMRZB.01._SCLZZZZZZZ_SX500_.jpg" alt="Imagem de capa do card" width="286" height="358">
+          <div class="card-body">
+              <h5 class="card-text"><b>A cinco de passos de você</b></h5>
+              <p>Sinopse: Stella e Will são muito diferentes. Ao mesmo tempo, a doença que os une não é a única coisa que têm em comum. Eles têm que ficar a cinco passos um do outro, mas, conforme a conexão entre os dois aumenta, a vontade de burlar a distância física parece insuportável.</p>
+              <a class="button" href="https://www.amazon.com.br/cinco-passos-você-Rachael-Lippincott/dp/8525067423/ref=asc_df_8525067423/?tag=googleshopp00-20&linkCode=df0&hvadid=379765936028&hvpos=&hvnetw=g&hvrand=13542343086738835813&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001655&hvtargid=pla-809965123889&psc=1"><b>Quero ler</b></a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;" id="carrinho">
+          <img class="card-img-top" src="https://m.media-amazon.com/images/I/51Xby92J9KL._SX346_BO1,204,203,200_.jpg" alt="Imagem de capa do card" width="286" height="358">
+          <div class="card-body">
+              <h5 class="card-text"><b>O poder do hábito.</b></h5> <br>
+              <p>Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental.</p>
+              <a class="button" href="https://www.amazon.com.br/poder-do-hábito-Charles-Duhigg/dp/8539004119/ref=asc_df_8539004119/?tag=googleshopp00-20&linkCode=df0&hvadid=379749006424&hvpos=&hvnetw=g&hvrand=11222614470674166477&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001655&hvtargid=pla-333762635690&psc=1"><b>Quero ler</b></a>
+          </div>
+        </div>
   </div>
 </div>
     
-      <div class="card" style="width: 18rem;" id="card2">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/P/B07MCDMRZB.01._SCLZZZZZZZ_SX500_.jpg" alt="Imagem de capa do card" width="286" height="358">
-        <div class="card-body">
-            <h5 class="card-text"><b>A cinco de passos de você</b></h5>
-            <p>Sinopse: Stella e Will são muito diferentes. Ao mesmo tempo, a doença que os une não é a única coisa que têm em comum. Eles têm que ficar a cinco passos um do outro, mas, conforme a conexão entre os dois aumenta, a vontade de burlar a distância física parece insuportável.</p>
-            <a class="button" href="https://www.amazon.com.br/cinco-passos-você-Rachael-Lippincott/dp/8525067423/ref=asc_df_8525067423/?tag=googleshopp00-20&linkCode=df0&hvadid=379765936028&hvpos=&hvnetw=g&hvrand=13542343086738835813&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001655&hvtargid=pla-809965123889&psc=1"><b>Quero adquirir</b></a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;" id="card5">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/51Xby92J9KL._SX346_BO1,204,203,200_.jpg" alt="Imagem de capa do card" width="286" height="358">
-        <div class="card-body">
-            <h5 class="card-text"><b>O poder do hábito.</b></h5> <br>
-            <p>Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental.</p>
-            <a class="button" href="https://www.amazon.com.br/poder-do-hábito-Charles-Duhigg/dp/8539004119/ref=asc_df_8539004119/?tag=googleshopp00-20&linkCode=df0&hvadid=379749006424&hvpos=&hvnetw=g&hvrand=11222614470674166477&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001655&hvtargid=pla-333762635690&psc=1"><b>Quero adquirir</b></a>
-            
-        </div>
-      </div>
-
 </body>
  
   
