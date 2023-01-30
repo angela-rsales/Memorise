@@ -1,4 +1,4 @@
-# Frontenders
+# Memorize
 
 <p>Esse é um site que tem o propósito de salvar em listas individuais por usuário, livros e filmes, seja os que você deseja ver ou os que você já ama!  </p>
 <p>Temos a home com uma pequena apresentação da empresa.</p>
@@ -13,7 +13,7 @@
 -  ``Boodstrap``
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/wgomesl/Frontenders).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/angela-rsales/Memorise.git).
 
 # Autores
 
