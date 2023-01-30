@@ -30,7 +30,7 @@ align-items: center;
 background-color: black;
 box-shadow: 0 0.2rem 1.2rem rgb(250, 141, 39);
 border: 13px solid rgb(250, 141, 39);
-margin-top: 2rem;
+margin-top: 5rem;
 }
 
 #titulo {
@@ -116,12 +116,11 @@ gap: 7rem;
 
 body {
 display: flex;
-width: 100%;
-height: 100vh;
 justify-content: center;
 align-items: center;
 font-family: Montserrat;
 background-color: black;
+flex-direction: row;
 }
 
 main {
@@ -129,20 +128,6 @@ display: flex;
 align-items: center;
 flex-direction: row;
 justify-content: center;
-}
-
-.login-container {
-display: flex;
-flex-direction: column;
-width: 30rem;
-height: 50rem;
-border-radius: 1.5rem;
-justify-content: space-around;
-align-items: center;
-font-family: montserrat;
-background-color: black;
-box-shadow: 0 0.6rem 1.6rem rgb(250, 141, 39);
-border: 13px solid rgb(250, 141, 39);
 }
 
 #titulo {
