@@ -14,6 +14,8 @@
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/angela-rsales/Memorise.git).
+Acesse o servidor json de Filmes hospedado no Render [aqui](https://cinema-servidor-03.onrender.com/)
+Acesse o servidor json de Livros hospedado no Render [aqui](https://projetoindividual-2otg.onrender.com/)
 
 # Autores
 
